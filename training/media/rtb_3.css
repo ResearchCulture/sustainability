@@ -1,0 +1,282 @@
+@import url("https://use.typekit.net/lfi4wkh.css");
+
+/* white header block */
+#x_headerBlock {
+    background: #ffffff;
+    color: #000000;
+    #padding-left: 20px;
+}
+
+/* margins for header and footer elements */
+#x_headerBlock h2 {
+	margin-left: 10px;
+}
+
+#x_footerShowHide {
+	margin-left: 12px;
+}
+
+#x_pageControls {
+	margin-right: 10px;
+}
+
+/* rounded corners for images*/
+img {
+  border-radius: 10px;
+}
+
+/* rounded border for video embeds */
+iframe {
+  border: 10px solid #324147;
+  border-radius: 10px;
+}
+
+/* font and hyperlink styles */
+body {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+h1 {
+    font-family: lexia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+h2 {
+  font-family: lexia, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  }
+  h3 {
+    font-family: lexia, serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+  }
+}
+h4 {
+    font-family: lexia, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+h5 {
+    font-family: lexia, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+h6 {
+    font-family: lexia, serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: #c26763;
+    padding: 5px 5px;
+}
+a:link {
+    color: #b5121b;
+    text-decoration: none;
+}
+a:visited {
+    color: #b5121b;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: #b5121b;
+    text-decoration: none;
+}
+
+/* active navigator panels */
+   /* interactive list panel */
+#infoHolder.panel {
+	#background: #bec0c2;
+    background: #eef0f2;
+    border: 2px solid #324147;
+}
+#infoHolder.panel h3 {
+	color: #b5121b;
+}
+
+/*accordion panel background */
+#infoHolder.ui-accordion {
+	background: #bec0c2;
+    #background: #ffffff;
+}
+
+.ui-accordion .ui-accordion-content {
+	background: #ffffff;
+    #background: #eef0f2;
+    border: 4px solid #bec0c2;
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    background:  #c26763;
+}
+
+.ui-accordion .ui-accordion-header a {
+    background:  #324147;
+}
+.ui-accordion .ui-accordion-header-active a {
+    background:  #c26763;
+}
+
+/*interactive list active highlight */
+.x_list_page .highlight {
+    background: #324147;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+/* categories page - draggable items */
+ .x_categories_page .label.panel {
+    background: #324157;
+    border: #324157;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+/* categories page  - check button */
+.ui-button {
+    border-radius: 1vmin;
+    background: #c26763;
+    border: none;
+    color: #ffffff;
+}
+
+/* categories page - item holders */
+#categoryHolder .highlight {
+    border-radius: 1vmin;
+    background: #bec0c2;
+}
+
+/* tabbed navigator */
+  /* right hand panel */
+#infoHolder.ui-tabs.ui-widget-content {
+	background: #bec0c2;
+    #background: #eef0f2;
+    #border: 2px solid #324147;
+    border: 2px solid #555656;
+    padding-bottom: 12px;
+}
+    /* tab colour */
+.tabHeader.ui-state-default.ui-corner-top {
+  background: #324147;
+}
+    /* white panel with inset border */
+#infoHolder #paneHolder {
+    #box-shadow: 0px 0px 0px 2px #324147 inset;
+    box-shadow: 0px 0px 0px 2px #555656 inset;
+    border-radius: 10px;
+    background: #fff;
+    margin: 5px;
+}
+    /* padding for the tab list */
+ #infoHolder #tabList {
+    padding-left: 5px;
+}
+
+html {
+overflow:hidden;
+}
+
+/* styling buttons in button navigator */
+.panelBtnLabel.ui-state-default {
+    background: #324147;
+}
+
+.panelBtnLabel.ui-state-active {
+    background: #c26763;
+}
+
+.ui-buttonset .ui-button {
+    margin-right: 4px;
+}
+
+.panelBtnLabel.ui-corner-left {
+  margin-right: 0px;
+}
+
+#mainPanel.panel {
+	background: #eef0f2;
+    border: 2px solid #324147;
+}
+.highlight {
+  background: none;
+}
+
+/* take out panel background colours - specific pages can be styled separately */
+.panel {
+	background: #ffffff;
+    border: none;
+}
+/* panel styles for button navigators */
+.panelPage {
+    border: 1px solid black;
+  	border-radius: 2vmin;
+  	height: 93%;
+   # width: 90%;
+   padding: 10px;
+   background: #eef0f2;
+   border: 2px solid #324147;
+
+/* inputs box on model answer pages */   
+}
+.x_modelAnswer_page #answerTxt {
+	border-radius: 5px;
+	width: 95%;
+}
+
+/* switch off coloured backgrounds for all infoHolders - specific pages can be styled separately */
+#infoHolder {
+	background: #fff;
+}
+
+/* lexia for title pages */  
+  .titlePageTxt {
+  font-family: lexia;
+}
+
+/* switch off background colours on annotated diagram pages */
+.x_annotatedDiagram_page #infoHolder {
+	background: #fff;
+}
+/* switch off highlights for list items in annotated diagram pages */
+.x_annotatedDiagram_page .highlight {
+	background: #324147;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+}
+/* bullet number sizing */
+ul,ol li {
+ font-size: 10pt;
+}
+
+/* accordion/tabs link colors */
+.ui-tabs-panel a:link, .ui-accordion-content a:link {
+   color: #b5121b;
+    text-decoration: none;
+}
+.ui-tabs-panel a:visited, .ui-accordion-content a:visited {
+   color: #b5121b;
+    text-decoration: none;
+}
+
+/* set width of main window */
+#x_mainHolder {
+    max-width: 99%;
+}
+/* aligning timer */
+#x_pageTimer {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
